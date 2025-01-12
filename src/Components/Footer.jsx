@@ -6,13 +6,13 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-black p-10 h-auto md:h-58 ">
+    <footer className="bg-black p-10 h-auto md:h-58  ">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:mt-5">
            <div className="text-neutral-400 ">
             <h1 className="text-neutral-300 text-lg font-bold mb-1">FASHION</h1>
             <p className="mb-2">Complete your style with awesome clothes from us. </p>
             <div>
-                <ul className="flex space-x-2">
+                <ul className="flex md:space-x-2">
                     <li><a href="#"></a><FaFacebookSquare className="text-3xl text-yellow-400" /></li>
                     <li><a href="#"></a><FaInstagramSquare className="text-3xl text-yellow-400" /></li>
                     <li><a href="#"></a><FaTwitterSquare className="text-3xl text-yellow-400" /></li>
